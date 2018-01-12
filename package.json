@@ -1,0 +1,32 @@
+{
+  "name": "freeforall",
+  "version": "1.0.0",
+  "description": "A new way to find free stuff!",
+  "main": "index.js",
+  "_moduleAliases": {
+    "@root": ".",
+    "@FreeForAll": "./services/FreeForAllAPI",
+    "@FreeForAllModels":"./services/FreeForAllAPI/app/models",
+    "@FreeForAllAPI":"./services/FreeForAllAPI/config/app.js",
+    "@config": "./services/FreeForAllAPI/config/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "module-alias": "^2.0.3",
+    "mongoose": "^4.13.9",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
